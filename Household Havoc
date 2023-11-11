@@ -1,0 +1,27 @@
+import random
+
+def household_havoc_game():
+print("Welcome to the Household Havoc Game!")
+print("Navigate through household tasks and challenges to emerge victorious.")
+
+challenges = [
+"Dishes in the sink have piled up. How many plates, bowls, and glasses need to be washed in total?",
+"The laundry needs to be sorted. How many white clothes and how many colored clothes are there?",
+"The pet has scattered its toys around. How many toys need to be put away?"
+]
+
+solutions = ["17", "12 white clothes and 18 colored clothes", "7 toys"]
+
+score = 0
+chosen_challenges = random.sample(challenges, 2) # 
+for i in range(len(chosen_challenges)):
+solution = input(chosen_challenges[i] + " ")
+if solution.lower() == solutions[i].lower(): # 
+print("Well done! You're making progress.")
+score += 1
+else:
+print("Incorrect. Keep working on the challenge.")
+
+print("Congratulations! You've successfully completed the household tasks. Your final score is:", score)
+
+household_havoc_game()
