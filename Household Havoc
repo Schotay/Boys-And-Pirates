@@ -10,7 +10,7 @@ challenges = [
 "The pet has scattered its toys around. How many toys need to be put away?"
 ]
 
-solutions = ["17", "12 white clothes and 18 colored clothes", "7 toys"]
+solutions = ["17", "12 white clothes and 18 colored clothes", "3 toys"]
 
 score = 0
 chosen_challenges = random.sample(challenges, 2) # 
