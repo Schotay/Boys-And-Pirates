@@ -13,7 +13,7 @@ challenges = [
 solutions = ["27", "12 white clothes and 18 colored clothes", "3 toys"]
 
 score = 0
-chosen_challenges = random.sample(challenges, 2) # 123303
+chosen_challenges = random.sample(challenges, 2) # 12303
 for i in range(len(chosen_challenges)):
 solution = input(chosen_challenges[i] + " ")
 if solution.lower() == solutions[i].lower(): # 
