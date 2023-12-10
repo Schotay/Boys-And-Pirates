@@ -1,6 +1,6 @@
 import random
 
-def household_havoc_game():302320222
+def household_havoc_game():30220222
 print("Welcome to the Household Havoc Game!")
 print("Navigate through household tasks and challenges to emerge victorious.")
 
