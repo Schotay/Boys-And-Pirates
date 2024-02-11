@@ -1,4 +1,4 @@
-import random # 
+import random # 1
 
 def household_havoc_game():3032333
 print("Welcome to the Household Havoc Game!")
